@@ -3,7 +3,7 @@ import axios from 'axios';
 import CandidateForm from './components/CandidateForm';
 import CandidateList from './components/CandidateList';
 import AddCandidateButton from './components/AddCandidateButton';
-import CandidateRow from './components/CandidateRow';
+// import CandidateRow from './components/CandidateRow';
 import './styles/style.css';
 
 
@@ -120,6 +120,14 @@ function MainApp() {
   const handleCancelEdit = () => {
     setEditingCandidateId(null);
     setEditedCandidate({
+      fullName: '',
+      email: '',
+      skills: '',
+      yrsExp: 0
+    });
+  
+    //This resets the new candidate values to initial values
+    setNewCandidate({
       fullName: '',
       email: '',
       skills: '',
