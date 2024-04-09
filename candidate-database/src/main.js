@@ -3,6 +3,7 @@ import axios from 'axios';
 import CandidateForm from './components/CandidateForm';
 import CandidateList from './components/CandidateList';
 import AddCandidateButton from './components/AddCandidateButton';
+import CandidateRow from './components/CandidateRow';
 import './styles/style.css';
 
 

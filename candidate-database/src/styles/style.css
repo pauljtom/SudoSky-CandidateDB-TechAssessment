@@ -37,21 +37,20 @@ body {
 }
 
 .Table {
-  /* ... existing styles ... */
-  border-collapse: collapse; /* Combine table borders for inner grid */
+  border-collapse: collapse;
 }
 
 .Table th, .Table td {
   border: 1px solid black; /* Inner black borders for all cells */
-  padding: 10px; /* Add some padding for better readability */
+  padding: 10px;
 }
 
 .Table th {
-  text-align: center; /* Center table headings */
+  text-align: center;
 }
 
 .Table td {
-  text-align: left; /* Left-align data cells */
+  text-align: left;
 }
 
 .hidden {
@@ -102,4 +101,8 @@ body {
 
 .EditCandidateColumn :hover {
   background-color: none !important;
+}
+
+.CancelEditButton {
+  visibility: hidden;
 }
