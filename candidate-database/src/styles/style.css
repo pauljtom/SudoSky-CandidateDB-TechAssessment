@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+* {
+  font-family: "Reddit Mono", monospace;
+}
+
+.Headings {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+
+.Table {
+  margin:2%;
+  padding: 25px;  
+  text-align: center;
+  /* border-color: #272b2c;
+  border-style: solid; */
+}
+
+.AddCandidateForm {
+  text-align: left;
+  padding-top: 10px;
+  /* visibility:initial; */
+}
+
+body {
+  background-color: #e9f0f1;
+  color: #272b2c;
+  padding: 40px;
+  text-align: left;
+}
+
+.Table tr:hover {
+  background-color:rgb(207, 240, 255);
+  cursor: pointer;
+}
+
+.Table {
+  /* ... existing styles ... */
+  border-collapse: collapse; /* Combine table borders for inner grid */
+}
+
+.Table th, .Table td {
+  border: 1px solid black; /* Inner black borders for all cells */
+  padding: 10px; /* Add some padding for better readability */
+}
+
+.Table th {
+  text-align: center; /* Center table headings */
+}
+
+.Table td {
+  text-align: left; /* Left-align data cells */
+}
+
+.hidden {
+  display: none;
+}
+
+.Func {
+  padding-top: 10px;
+}
+
+.TableWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.ButtonGroup {
+  display: flex;
+  justify-content:end;
+}
+
+.Main{
+  text-align: center;
+}
+
+.AddCandidateForm {
+  text-align: center;
+}
+
+.AddCandidateForm input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.AddCandidateButton
+{
+  padding: 5px;
+  width: 130px;
+}
+
+.ButtonGroup button {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.EditCandidateColumn {
+  border: none !important;
+}
+
+.EditCandidateColumn :hover {
+  background-color: none !important;
+}
