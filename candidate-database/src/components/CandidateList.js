@@ -4,7 +4,8 @@ import CandidateRow from './CandidateRow';
 //Candidate Table
 
 const CandidateList = ({ candidates, handleRowClick, editingCandidateId, editedCandidate, handleChange, handleEditCandidate, handleDeleteCandidate, handleCancelEdit }) => {
-// Sort candidates by ID in ascending order
+
+// Sorts candidates by ID in ascending order
 const sortedCandidates = candidates.slice().sort((a, b) => a.id - b.id);
 
   return (

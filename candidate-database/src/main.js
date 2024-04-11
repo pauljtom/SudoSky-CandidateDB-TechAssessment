@@ -3,11 +3,17 @@ import axios from 'axios';
 import CandidateForm from './components/CandidateForm';
 import CandidateList from './components/CandidateList';
 import AddCandidateButton from './components/AddCandidateButton';
-// import CandidateRow from './components/CandidateRow';
 import './styles/style.css';
 
 
 function MainApp() {
+
+  // Defining my environment variables
+  // const apiKEY = process.env.REACT_APP_API_KEY;
+  const apiURL = process.env.REACT_APP_API_URL;
+
+
+
   //State to hold the list of candidates
   const [candidates, setCandidates] = useState([]);
 
@@ -33,14 +39,16 @@ function MainApp() {
 
   //Fetches candidates from my locally hosted API using axios.get
   useEffect(() => {
-    axios.get('https://localhost:7242/api/Candidates')
+    axios.get(apiURL)
       .then(response => {
         setCandidates(response.data);
       })
       .catch(error => {
         console.error('Error fetching candidates: ', error);
       });
-  }, []);
+  }, [apiURL]);
+
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -55,9 +63,11 @@ function MainApp() {
     });
   };
 
+
+
   //This handles adding a new candidate, using POST
   const handleAddCandidate = () => {
-    axios.post('https://localhost:7242/api/Candidates', newCandidate)
+    axios.post(apiURL, newCandidate)
       .then(response => {
         setCandidates([...candidates, response.data]);
         setNewCandidate({
@@ -80,16 +90,20 @@ function MainApp() {
     setEditedCandidate(selectedCandidate);
   };
 
+
+
   //Handles the editing of a candidate, using PUT
   const handleEditCandidate = () => {
-    axios.put(`https://localhost:7242/api/Candidates/${editingCandidateId}`, editedCandidate)
+
+    axios.put(`${apiURL}/${editingCandidateId}`, editedCandidate)
+
       .then(response => {
         const updatedCandidates = candidates.map(candidate =>
-          candidate.id === editingCandidateId ? response.data : candidate
+        candidate.id === editingCandidateId ? response.data : candidate
         );
         setCandidates(updatedCandidates);
         setEditingCandidateId(null);
-        axios.get('https://localhost:7242/api/Candidates')
+        axios.get(apiURL)
           .then(response => {
             setCandidates(response.data);
           })
@@ -102,19 +116,24 @@ function MainApp() {
       });
   };
 
+
+
   // Handles candidate Deletion using DELETE
   const handleDeleteCandidate = (id) => {
-    axios.delete(`https://localhost:7242/api/Candidates/${id}`)
+    axios.delete(`${apiURL}/${id}`)
       .then(response => {
         const updatedCandidates = candidates.filter(candidate =>
           candidate.id !== id
         );
         setCandidates(updatedCandidates);
+        console.log('Candidate id ' + id + ' has been deleted sucessfully!')
       })
       .catch(error => {
         console.error('Error deleting candidate: ', error);
       });
   };
+
+
 
   //This handles the cancellation from the edit mode
   const handleCancelEdit = () => {
