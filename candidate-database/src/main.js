@@ -9,9 +9,12 @@ import './styles/style.css';
 function MainApp() {
 
   // Defining my environment variables
-  // const apiKEY = process.env.REACT_APP_API_KEY;
-  const apiURL = process.env.REACT_APP_API_URL;
 
+  // const apiKEY = process.env.REACT_APP_API_KEY;
+
+  const apiURL = process.env.NODE_ENV === 'production' ? 'http://myapi.com/' : process.env.REACT_APP_API_URL;
+  // If the applications environment is production, the API URL should be the production, if not the API URL should
+  // be the URL stored in the appropriate .env file, which should be stored locally or on the hosting server
 
 
   //State to hold the list of candidates
