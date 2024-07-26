@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I/7MhGXlmjPlfmxXuR6ICOyuzUu0HVx4zpGyjMFdfab2uyXqk28FD64DLSlBV0SCTB97kP6i/xiTk5e8cIkCvw==",
+  "dgSpecHash": "9PN8LUvaHLHggZdik+Cw4kYJ3/PwIIyLv0OF8CEfPFjcdpqwmC1yq9U/oUuHl/uzhdG4kkFGGjvS0lAtOY8Jtw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\CandidatesWebAPI\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
+  "projectFilePath": "F:\\GitHub\\MyRepos\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",

@@ -12,7 +12,7 @@ function MainApp() {
 
   // const apiKEY = process.env.REACT_APP_API_KEY;
 
-  const apiURL = process.env.NODE_ENV === 'production' ? 'http://myapi.com/' : process.env.REACT_APP_API_URL;
+  const apiURL = 'https://localhost:7242/api/Candidates';
   // If the applications environment is production, the API URL should be the production, if not the API URL should
   // be the URL stored in the appropriate .env file, which should be stored locally or on the hosting server
 

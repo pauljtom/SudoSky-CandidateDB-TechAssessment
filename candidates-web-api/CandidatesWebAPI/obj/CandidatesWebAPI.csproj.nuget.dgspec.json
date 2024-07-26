@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\CandidatesWebAPI\\CandidatesWebAPI\\CandidatesWebAPI.csproj": {}
+    "F:\\GitHub\\MyRepos\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\CandidatesWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\CandidatesWebAPI\\CandidatesWebAPI\\CandidatesWebAPI.csproj": {
+    "F:\\GitHub\\MyRepos\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\CandidatesWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CandidatesWebAPI\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
+        "projectUniqueName": "F:\\GitHub\\MyRepos\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
         "projectName": "CandidatesWebAPI",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\CandidatesWebAPI\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
+        "projectPath": "F:\\GitHub\\MyRepos\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\CandidatesWebAPI\\CandidatesWebAPI\\obj\\",
+        "outputPath": "F:\\GitHub\\MyRepos\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\VS\\Shared\\NuGetPackages"
