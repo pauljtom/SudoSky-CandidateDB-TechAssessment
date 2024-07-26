@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
-  font-family: "Reddit Mono", monospace;
+  /* font-family: "Reddit Mono", monospace; */
+  font-family: "Open Sans", sans-serif;
 }
 
 .Headings {
@@ -25,33 +27,45 @@
 }
 
 body {
-  background-color: #e9f0f1;
-  color: #272b2c;
+  background-color: black;
+  color: white;
   padding: 40px;
   text-align: left;
 }
 
 .Table tr:hover {
-  background-color:rgb(207, 240, 255);
+  background-color:rgb(110, 110, 110);
   cursor: pointer;
+  
 }
 
 .Table {
-  border-collapse: collapse;
+  text-align: left;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  box-sizing: border-box;
 }
 
 .Table th, .Table td {
-  border: 1px solid black; /* Inner black borders for all cells */
+  /* border: 1px solid white; */
+  
   padding: 10px;
 }
 
 .Table th {
-  text-align: center;
+  text-align: left;
 }
 
 .Table td {
   text-align: left;
+  /* border-bottom: 1px solid white; */
 }
+
+/* .Table td:hover {
+  text-align: left;
+  border-bottom: 1px solid white;
+} */
 
 .hidden {
   display: none;
