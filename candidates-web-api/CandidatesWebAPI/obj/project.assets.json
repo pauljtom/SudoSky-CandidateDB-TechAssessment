@@ -3138,24 +3138,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "F:\\VS\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pault\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\MyRepos\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\pault\\OneDrive - SudoSky\\Documents\\My Repos\\Personal Projects\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
       "projectName": "CandidatesWebAPI",
-      "projectPath": "F:\\GitHub\\MyRepos\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\MyRepos\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\obj\\",
+      "projectPath": "C:\\Users\\pault\\OneDrive - SudoSky\\Documents\\My Repos\\Personal Projects\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\CandidatesWebAPI.csproj",
+      "packagesPath": "C:\\Users\\pault\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pault\\OneDrive - SudoSky\\Documents\\My Repos\\Personal Projects\\SudoSky-CandidateDB-TechAssessment\\candidates-web-api\\CandidatesWebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "F:\\VS\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\pault\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3163,6 +3158,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3232,7 +3228,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
